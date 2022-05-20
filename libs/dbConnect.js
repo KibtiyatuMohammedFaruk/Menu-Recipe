@@ -6,7 +6,7 @@ export const dbConnect = async () => {
   if (mongoose.connections[0].readyState) return;
 
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/recipe");
+    await mongoose.connect("// mongodb+srv://kibtiya:Optimistic@dev.ls26p.mongodb.net/recipe?retryWrites=true&w=majority");
     console.log("Database connected successfully.");
   } catch (error) {
     console.error(error);
