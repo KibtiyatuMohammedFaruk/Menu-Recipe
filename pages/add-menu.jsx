@@ -112,12 +112,12 @@ const AddMenu = () => {
             <div>
               <label
                 className="block text-lg text-gray-700 mb-2"
-                for="user_avatar"
+                htmlFor="user_avatar"
               >
                 Menu Image
               </label>
               <input
-                class="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer"
+                className="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer"
                 aria-describedby="user_avatar_help"
                 id="user_avatar"
                 type="file"
